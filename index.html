@@ -180,6 +180,28 @@
         vertical-align: middle;
         border-radius: 5px;
     }
+
+    @media (max-width: 768px) {
+      header .container {
+        flex-direction: column;
+      }
+      header nav {
+        margin-top: 15px;
+      }
+      header nav a {
+        margin: 0 10px;
+      }
+      .hero h1 {
+        font-size: 40px;
+      }
+      .hero p {
+        font-size: 18px;
+      }
+      #skills .skills-grid,
+      #contact .contact-grid {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
